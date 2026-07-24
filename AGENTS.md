@@ -271,3 +271,17 @@ titles, test descriptions, and Linear URLs.
   description using `https://linear.app/n8n/issue/[TICKET-ID]`. Do not
   create a Linear ticket on your own — ask first.
 - always link to the github issue if mentioned in the linear ticket.
+
+## Reusable System Asset Layer
+
+Use `docs/REUSABLE_SYSTEM_ASSETS.md` when repeated work in this repository should become a durable Skill, Agent, Checklist, SOP, schema, test, rule, or safe automation.
+
+Rules for this layer:
+
+- Inspect existing repository assets before creating new ones.
+- Extend current assets instead of creating duplicates.
+- Preserve this repository's highest-authority instructions, approval gates, security boundaries, release process, and rollback path.
+- Include negative findings for searches or investigations, including no exact matches or no missing references.
+- Do not publish, deploy, spend money, send external messages, change secrets, delete data, merge, or perform destructive cleanup without explicit owner approval for the exact action.
+
+Repository scope: `advantageosmain-sudo/n8nMS`.
